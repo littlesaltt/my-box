@@ -42,7 +42,7 @@ public class BoxTester {
 
         for (Box box : boxes) {
             if (box.isFit(length, width, height)) {
-                System.out.println(box);
+                System.out.println(box); //在各個box內按control+0:toString
                 break;
             }
         }
